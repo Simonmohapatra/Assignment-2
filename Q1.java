@@ -11,6 +11,7 @@ Now display both the member variables using the displayData() method. Also, chec
 who is younger.
 */
 
+import java.util.Scanner;
 class Person{
     String name;
     int age;
