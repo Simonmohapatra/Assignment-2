@@ -19,9 +19,9 @@ totalAamt = Principal + (PrincipalÖrateÖTime)/100;
 
 class Deposit{
 	long principal;
-        int time;
-        double rate;
-        double totalAmt;
+    int time;
+    double rate;
+    double totalAmt;
 
     Deposit(){
 	    principal=100;
@@ -39,22 +39,36 @@ class Deposit{
     }
     Deposit(long principal, double rate){
 	    this.principal=principal;
-            this.rate=rate;
+        this.rate=rate;
     }
     void display(){
-	    System.out.println("Principal: "+principal);
-            System.out.println("Time: "+time);
-            System.out.println("Rate: "+rate);
+		System.out.println("Principal: "+principal);
+        System.out.println("Time: "+time);
+        System.out.println("Rate: "+rate);
     }
     double calcAmt(){
+		System.out.print("The total amount is: ");
 	    totalAmt= principal+(principal*rate*time)/100;
-            return totalAmt;
+        return totalAmt;
     }
 }
 
 public class Q4{
 	public static void main(String[] args) {
-		Deposit d= new Deposit(1000,2,6);
-		System.out.println("The total amount is: "+ d.calcAmt());
+		Deposit d1= new Deposit();
+		d1.display();
+        System.out.println(d1.calcAmt());
+
+        Deposit d2= new Deposit(1000,2,6);
+        d2.display();
+        System.out.println(d2.calcAmt());
+
+        Deposit d3= new Deposit(2000,2);
+        d3.display();
+        System.out.println(d3.calcAmt());
+
+        Deposit d4= new Deposit(1500,5.0);
+		d4.display();
+		System.out.println(d4.calcAmt());
 	}
 }
