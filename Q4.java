@@ -42,7 +42,7 @@ class Deposit{
             this.rate=rate;
     }
     void display(){
-	    System.out.println("Principal: "+principal+);
+	    System.out.println("Principal: "+principal);
             System.out.println("Time: "+time);
             System.out.println("Rate: "+rate);
     }
