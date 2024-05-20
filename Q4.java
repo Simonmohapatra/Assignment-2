@@ -58,7 +58,7 @@ public class Q4{
 		Deposit d1= new Deposit();
 		d1.display();
         System.out.println(d1.calcAmt());
-
+		
         Deposit d2= new Deposit(1000,2,6);
         d2.display();
         System.out.println(d2.calcAmt());
