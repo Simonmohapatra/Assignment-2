@@ -55,7 +55,7 @@ class Deposit{
 
 public class Q4{
     public static void main(String[] args) {
-		Deposit d1= new Deposit();
+	Deposit d1= new Deposit();
         d1.display();
         System.out.println(d1.calcAmt());
 
@@ -70,5 +70,5 @@ public class Q4{
         Deposit d4= new Deposit(1500,5.0);
         d4.display();
         System.out.println(d4.calcAmt());
-	}
+    }
 }
