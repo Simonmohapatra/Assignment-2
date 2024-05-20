@@ -35,8 +35,8 @@ class Employee extends Person{
 
 public class Q5 {
     public static void main(String[] args) {
-        Employee e1= new Employee("Simon",18,40,56000000.0);
-        Employee e2= new Employee("Subham",15,34,56789000.0);
+        Employee e1= new Employee("XYZ",18,40,56000000.0);
+        Employee e2= new Employee("ABC",15,34,56789000.0);
         e1.empDisplay();
         e2.empDisplay();
     }
