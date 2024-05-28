@@ -13,9 +13,9 @@ If the sales are negative, your Demo class should print the message “Invalid I
   */
 
 import java.util.Scanner;
-class Commision{
+class Commission{
     double sales, commission=0;
-    Commision(double sales){
+    Commission(double sales){
         this.sales=sales;
     }
     public double getCommission(){
@@ -41,7 +41,7 @@ public class HQ1 {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the sale: ");
         double sale= sc.nextDouble();
-        Commision c= new Commision(sale);
+        Commission c= new Commission(sale);
         double commission=c.getCommission();
         System.out.println("The commission is: "+commission);
     }
