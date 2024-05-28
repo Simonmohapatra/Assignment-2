@@ -6,6 +6,7 @@ A person purchase 5 different books.
 Display the book details which has the maximum price.
 */
 
+import java.util.Scanner;
 class Book{
     String BName;
     int BEdition;
